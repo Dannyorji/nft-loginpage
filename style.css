@@ -1,0 +1,150 @@
+body {
+  padding-bottom: 50px;
+}
+.image {
+  background-image: url("https://i.pinimg.com/550x/88/21/80/8821809e23c28fbc2c35795ee4bed294.jpg");
+  background-size: 300px 400px;
+  background-color: white;
+  color: hsl(0, 0%, 90%);
+  width: 296px;
+  height: 400px;
+  display: inline-block;
+  position: absolute;
+  border-radius: 15px 15px 200px 200px;
+}
+
+#left {
+  border-radius: 15px 0px 0px 15px;
+}
+
+#right {
+  border-radius: 15px 15px 15px 0px;
+}
+
+#left,
+#right {
+  display: inline-block;
+  width: 146px;
+  height: 500px;
+  background-color: hsl(0, 0%, 9%);
+}
+
+.cardclick {
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.firstbox {
+  background-color: white;
+  display: inline-block;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.s1class {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 63%;
+  margin-left: -50%;
+}
+
+.s1class span,
+.s2class span {
+  display: block;
+}
+
+.s2class {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 63%;
+  margin-right: -50%;
+}
+
+.mainheader {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.card2 {
+  background-color: hsl(0, 0%, 9%);
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  position: absolute;
+  left: 320px;
+  display: inline-block;
+}
+
+input[type="text"],
+[type="password"] {
+  font-weight: bold;
+  width: 230px;
+  height: 45px;
+  margin: 0 21px 20px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn {
+  font-weight: bold;
+  width: 260px;
+  margin: 0 20px 20px 20px;
+  height: 45px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+  color: hsl(0, 0%, 9%);
+}
+
+.signup1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.forgotpassword {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&w=600");
+  max-width: fit-content;
+  background-position: center;
+  content: "";
+  background-size: cover;
+}
+
+.everything {
+  border: 0px solid black;
+  margin-top: 25%;
+  margin-left: 400px;
+  left: 70%;
+  display: block;
+}
+
+html,
+body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+.modal {
+  width: 50vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+}
